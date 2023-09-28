@@ -348,11 +348,54 @@ h3{
 iframe{
     width: 100%;
 }
- 
-  
+.last {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 0;
+    margin-top: 40px;
+    
+} 
+.last1{
+    margin-left: 30px;
+}
+.last1 p {
+    font-size: large;
+    padding: 10px;
+}
+  .footer{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+  }
+  .footer div {
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+    color: #b7b3b3;
+    margin-top: 30px;
+    font-size: larger;
+
+  }
 
 
 
+@media (max-width :1399px){
+    .last {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 0;
+        margin-top: 40px;
+        
+    }
+    .last1{
+        margin-left: 20px;
+    }
+    .last1 p {
+        font-size: medium;
+        padding: 6px;
+    }
+      
+}
 @media (max-width :1356px){
  .image{
     width: 250px;
@@ -472,7 +515,7 @@ iframe{
          
         }
     
-    }
+    
     .image{
         width: 300px;
     }
@@ -488,7 +531,7 @@ iframe{
     }
     .pic{
         width: 100%;
-    }
+    }}
 
 @media(max-width:678px) {
     .about-cards {
@@ -505,7 +548,27 @@ iframe{
         height: fit-content;
         width: 320px;
     }
+    .last {
+    display: grid;
+    grid-template-columns: 100%; 
+    gap: 0;
+    margin-top: 40px;
+    
 }
+.last1{
+    margin-top: 80px;
+}
+
+}
+
+@media (max-width :708px){
+.last {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 0;
+    margin-top: s0px;
+    
+}}
 @media(max-width:528px){
     .nav-bar a{
         font-size: 1.8rem;
