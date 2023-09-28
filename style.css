@@ -366,14 +366,16 @@ iframe{
     display: flex;
     flex-direction: column;
     background-color: black;
+    
   }
   .footer div {
     text-align: center;
     width: 100%;
-    height: fit-content;
+    height: 1.4rem;
     color: #b7b3b3;
     margin-top: 30px;
     font-size: larger;
+    margin-bottom: 40px;
 
   }
 
